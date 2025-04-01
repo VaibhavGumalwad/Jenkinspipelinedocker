@@ -5,7 +5,7 @@ FROM alpine:3.5
 
 
 # Install python and pip
-
+WORKDIR /var/lib/jenkins/workspace/dockerJenkinsPipeline
 RUN apk add --update py2-pip
 
 
